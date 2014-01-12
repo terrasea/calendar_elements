@@ -9,7 +9,7 @@ Create some Polymer Dart calendar elements
 
 This project is very much a fun Project designed to be both useful, and another way to learn Dart and Polymer Dart.
 
-So far I've just created a <calendar-month> Element.
+So far I've just created a &lt;calendar-month&gt; Element.
 
 Attributes
 
