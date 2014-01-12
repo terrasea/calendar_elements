@@ -1,0 +1,9 @@
+name: calendar_elements
+description: A sample Polymer application
+dependencies:
+  polymer: any
+  polymer_elements: any
+  unittest: any
+transformers:
+- polymer:
+    entry_points: web/calendar_month_element.html

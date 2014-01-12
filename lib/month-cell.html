@@ -1,0 +1,27 @@
+<polymer-element name="month-cell" attributes="cell" extends="div">
+  <template>
+    <style>
+      @host {
+        * { 
+          width: 75px;
+          height: 75px;
+          text-align: right;
+          border: solid 1px;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding: 0 0 0 0;
+        }  
+      }
+      
+      :host {
+        width: 75px;
+        height: 75px;
+        text-align: right;
+        border: solid 1px;
+        padding: 0 0 0 0;
+      }
+    </style>
+    {{cell.contents}}
+  </template>
+  <script type="application/dart" src='month_cell.dart'></script>
+</polymer-element>

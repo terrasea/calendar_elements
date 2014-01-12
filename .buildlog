@@ -1,0 +1,1559 @@
+---
+build.dart --machine --full
+
+build.dart finished [1838 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart
+
+build.dart finished [1572 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.html
+[{"method":"error","params":{"file":"web/calendar_month_element.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"calendar_month_element\".","line":10,"charStart":199,"charEnd":243}}]
+[{"method":"warning","params":{"file":"web/calendar_month_element.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":20,"charStart":518,"charEnd":543}}]
+build failed with errors: {Transform polymer (Linter) on calendar_month_element|web/calendar_month_element.html threw error: couldn't find imported asset "web/clickcounter.html" in package "calendar_month_element".}
+build.dart finished [1402 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1273 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1246 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html --changed=lib/calendar_month.dart
+
+build.dart finished [1401 ms]
+
+---
+build.dart --machine --changed=tests/index.html --changed=tests/run.sh --changed=tests/test.dart
+
+build.dart finished [1442 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1756 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+
+build.dart finished [1456 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+
+build.dart finished [1419 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+
+build.dart finished [1417 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+
+build.dart finished [1406 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1964 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+[{"method":"error","params":{"file":"web/calendar_month_element.html","message":"incomplete packages/ path. It should have at least 3 segments packages/name/path-from-name's-lib-dir","line":10,"charStart":199,"charEnd":240}}]
+build failed with errors: {Transform polymer (Linter) on calendar_month_element|web/calendar_month_element.html threw error: incomplete packages/ path. It should have at least 3 segments packages/name/path-from-name's-lib-dir}
+build.dart finished [1464 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+[{"method":"error","params":{"file":"web/calendar_month_element.html","message":"incomplete packages/ path. It should have at least 3 segments packages/name/path-from-name's-lib-dir","line":10,"charStart":199,"charEnd":240}}]
+build failed with errors: {Transform polymer (Linter) on calendar_month_element|web/calendar_month_element.html threw error: incomplete packages/ path. It should have at least 3 segments packages/name/path-from-name's-lib-dir}
+build.dart finished [1499 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+[{"method":"error","params":{"file":"web/calendar_month_element.html","message":"couldn't find imported asset \"lib/calendar_month.html\" in package \"calendar_elements\".","line":10,"charStart":199,"charEnd":272}}]
+build failed with errors: {Transform polymer (Linter) on calendar_month_element|web/calendar_month_element.html threw error: couldn't find imported asset "lib/calendar_month.html" in package "calendar_elements".}
+build.dart finished [1345 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+[{"method":"error","params":{"file":"web/calendar_month_element.html","message":"couldn't find imported asset \"lib/calendar-month.html\" in package \"calendar_elements\".","line":10,"charStart":199,"charEnd":272}}]
+build failed with errors: {Transform polymer (Linter) on calendar_month_element|web/calendar_month_element.html threw error: couldn't find imported asset "lib/calendar-month.html" in package "calendar_elements".}
+build.dart finished [1283 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1305 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1280 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1452 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1486 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1499 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1444 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1458 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1433 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1482 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1404 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1409 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1455 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1459 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1443 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":17,"charStart":467,"charEnd":517}}]
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":19,"charStart":537,"charEnd":548}}]
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"Unexpected start tag (template) in table context caused voodoo mode.","line":17,"charStart":467,"charEnd":517}}]
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"Unexpected end tag (template) in table context caused voodoo mode.","line":19,"charStart":537,"charEnd":548}}]
+build.dart finished [1444 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1271 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1596 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1423 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1556 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1422 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"definition for Polymer element with tag name \"month-cell\" not found.","line":18,"charStart":568,"charEnd":596}}]
+build.dart finished [1288 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"definition for Polymer element with tag name \"month-cell\" not found.","line":18,"charStart":530,"charEnd":600}}]
+build.dart finished [1302 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" doesn't declare any type extensions. To fix this, either rewrite this tag as <month-cell> or add 'extends=\"td\"' to the custom element declaration.","line":19,"charStart":573,"charEnd":643}}]
+build.dart finished [1266 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1356 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1276 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1309 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1338 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1547 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1312 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1290 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1301 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1442 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1283 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1307 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1297 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1387 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1276 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1316 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1298 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1495 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1419 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1450 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1402 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1531 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1410 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1394 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1455 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1311 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1291 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1321 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1383 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1325 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1297 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1278 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1267 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1507 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1430 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1411 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1417 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1402 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1490 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1387 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1337 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1392 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1270 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1368 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1319 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1344 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1328 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1379 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1300 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1394 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1282 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1581 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1505 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1464 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1363 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1340 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1511 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1369 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1411 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1445 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1533 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1390 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1502 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1601 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1584 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1481 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1359 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1341 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1306 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1328 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1504 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1737 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1636 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1613 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1961 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2032 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1586 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1981 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1828 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1909 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1633 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1677 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1730 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1638 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1807 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1863 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1716 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1946 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [2137 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1880 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1960 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1824 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\", but this tag will not include the default properties of \"td\". To fix this, either write this tag as <td is=\"month-cell\"> or remove the \"extends\" attribute from the custom element declaration.","line":19,"charStart":615,"charEnd":643}}]
+build.dart finished [1946 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1808 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1736 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1743 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1771 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1854 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1893 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1963 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1786 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\", but this tag will not include the default properties of \"div\". To fix this, either write this tag as <div is=\"month-cell\"> or remove the \"extends\" attribute from the custom element declaration.","line":19,"charStart":615,"charEnd":643}}]
+build.dart finished [1667 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\", but this tag will not include the default properties of \"div\". To fix this, either write this tag as <div is=\"month-cell\"> or remove the \"extends\" attribute from the custom element declaration.","line":19,"charStart":615,"charEnd":643}}]
+build.dart finished [1824 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\", but this tag will not include the default properties of \"div\". To fix this, either write this tag as <div is=\"month-cell\"> or remove the \"extends\" attribute from the custom element declaration.","line":19,"charStart":615,"charEnd":643}}]
+build.dart finished [2129 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\", but this tag will not include the default properties of \"td\". To fix this, either write this tag as <td is=\"month-cell\"> or remove the \"extends\" attribute from the custom element declaration.","line":19,"charStart":615,"charEnd":643}}]
+build.dart finished [1762 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1960 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1943 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1888 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1732 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1702 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1825 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [2129 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":19,"charStart":577,"charEnd":647}}]
+build.dart finished [1966 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":19,"charStart":577,"charEnd":647}}]
+build.dart finished [1694 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1757 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1702 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1736 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1707 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [2110 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1914 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1842 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":24,"charStart":599,"charEnd":636}}]
+build.dart finished [1817 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":24,"charStart":599,"charEnd":636}}]
+build.dart finished [1873 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1771 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1744 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1788 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1787 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1830 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1778 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1696 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1749 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1841 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1666 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1778 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+---
+build.dart --machine --changed=lib/month-cell.html
+---
+build.dart --machine --changed=lib/month_cell.dart
+---
+build.dart --machine --changed=lib/month_cell.dart
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1707 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1747 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":24,"charStart":561,"charEnd":631}}]
+build.dart finished [1861 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1880 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1736 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1743 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1623 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1891 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1811 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [2014 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [2128 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1870 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1953 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1766 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1707 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1699 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1960 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1914 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1772 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1813 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1578 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1547 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1333 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1319 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1534 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1526 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1562 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1542 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1532 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1595 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1537 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1480 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1538 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1577 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1550 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1651 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1461 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1596 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1436 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1559 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1561 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1489 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1483 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1501 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1430 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":30,"charStart":680,"charEnd":717}}]
+build.dart finished [1533 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":30,"charStart":680,"charEnd":717}}]
+build.dart finished [1335 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1294 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1424 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1294 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1270 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1258 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1293 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1284 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1281 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1316 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1259 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1276 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"div\". Did you mean to write <div is=\"month-cell\">?","line":30,"charStart":642,"charEnd":712}}]
+build.dart finished [1244 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [1322 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1792 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1768 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1299 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1304 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1564 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1422 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1416 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1421 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1508 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2539 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1587 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1484 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+
+build.dart finished [1433 ms]
+
+---
+build.dart --machine --changed=lib/calendar_month.dart
+
+build.dart finished [1687 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [2028 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1939 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1855 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1953 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1820 ms]
+
+---
+build.dart --machine --changed=web/calendar_month_element.html
+
+build.dart finished [1925 ms]
+
+---
+build.dart --machine --changed=tests/index.html
+
+build.dart finished [1490 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+
+build.dart finished [1632 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+
+build.dart finished [1423 ms]
+
+---
+build.dart --machine --changed=tests/test.dart
+
+build.dart finished [1769 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":30,"charStart":680,"charEnd":717}}]
+build.dart finished [4986 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":30,"charStart":680,"charEnd":717}}]
+build.dart finished [5374 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+
+build.dart finished [2215 ms]
+
+---
+build.dart --machine --changed=lib/calendar-month.html
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":30,"charStart":680,"charEnd":717}}]
+build.dart finished [2557 ms]
+
+---
+build.dart --machine --changed=lib/month_cell.dart
+[{"method":"warning","params":{"file":"lib/calendar-month.html","message":"custom element \"month-cell\" extends from \"td\". Did you mean to write <td is=\"month-cell\">?","line":30,"charStart":680,"charEnd":717}}]
+build.dart finished [2255 ms]
+
+---
+build.dart --machine --changed=lib/month-cell.html
+
+build.dart finished [1693 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1921 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1932 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2010 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2013 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2182 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2056 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1935 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2169 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1739 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1760 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2005 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2174 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2208 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2137 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2062 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2093 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1983 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1719 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1974 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2025 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1902 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2355 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2607 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2628 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2640 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2580 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2387 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [3118 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2542 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2301 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2366 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2937 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2678 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2819 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2008 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1935 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2607 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [2126 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1947 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1779 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1707 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1628 ms]
+
+---
+build.dart --machine --changed=lib/month_utilities.dart
+
+build.dart finished [1576 ms]
+
+---
+build.dart --machine --changed=LICENSE --changed=README.md
+
+build.dart finished [1490 ms]
+

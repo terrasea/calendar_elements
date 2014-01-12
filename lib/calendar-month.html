@@ -1,0 +1,36 @@
+<link rel="import" href="month-cell.html">
+<polymer-element name="calendar-month" attributes="month year">
+  <template>
+    <style>
+    @host {
+      * {
+      }
+    }
+    
+    :host {
+    }
+    
+    table {
+      border: solid 5px;
+      border-collapse: collapse;
+    }
+    
+    td {
+      padding: 0 0 0 0;
+    }
+    
+    </style>
+    <table class="calendar">
+      <caption>{{monthView.name}} {{monthView.year}}</caption>
+      <thead>
+        <tr><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th><th>Sun</th></tr>
+      </thead>
+      <tbody>
+        <tr template repeat="{{row in monthView.contents}}">
+          <td template repeat="{{cell in row}}"><div is="month-cell" cell="{{cell}}"></div></td>
+        </tr>
+      </tbody>
+    </table>
+  </template>
+  <script type="application/dart" src='calendar_month.dart'></script>
+</polymer-element>
